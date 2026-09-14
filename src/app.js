@@ -29,7 +29,7 @@ export async function startOrbit() {
     const { camera, controls } = createCamera(renderer);
     const { composer, resize, updateFraming } = createPipeline(renderer, scene, camera);
     const pixels = resize();
-    const assets = window.ORBIT_ASSETS;
+    const assets = window.ANYUES_ASSETS;
     const textures = await loadTextures(assets, fraction => {
       document.getElementById('load-progress').style.width = `${fraction * 90}%`;
     });
@@ -141,7 +141,7 @@ export async function startOrbit() {
       lastFrameTime = performance.now();
     });
     requestAnimationFrame(animate);
-    window.ORBIT = {
+    window.ANYUES = {
       version: '1.9.0',
       wallpaper: ui.wallpaper,
       getState: () => ({

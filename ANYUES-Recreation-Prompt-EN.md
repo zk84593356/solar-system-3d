@@ -1,6 +1,6 @@
-# ORBIT · Universe Explorer Recreation Prompt
+# ANYUES · Universe Explorer Recreation Prompt
 
-> This prompt describes the finished ORBIT experience. It is not a verbatim transcript of the original development conversation. Copy it into an AI coding tool to build your own version.
+> This prompt describes the finished ANYUES experience. It is not a verbatim transcript of the original development conversation. Copy it into an AI coding tool to build your own version.
 >
 > Live demo: https://ryh842487118-bot.github.io/orbit/
 >
@@ -8,7 +8,7 @@
 
 ---
 
-You are a frontend engineer specializing in Three.js, astronomical visualization, and interaction design. Build a complete, working 3D universe exploration website named **ORBIT · Universe Explorer**.
+You are a frontend engineer specializing in Three.js, astronomical visualization, and interaction design. Build a complete, working 3D universe exploration website named **ANYUES · Universe Explorer**.
 
 Do not stop at a proposal or code snippets. Create the complete project, run checks, fix issues, and deliver a page that can be opened directly.
 
@@ -45,7 +45,7 @@ You may adjust celestial sizes and distances for visual clarity, but explain on 
 
 ### Top Left
 
-Display the ORBIT identity and a “Universe Explorer” subtitle.
+Display the ANYUES identity and a “Universe Explorer” subtitle.
 
 ### Top Center
 

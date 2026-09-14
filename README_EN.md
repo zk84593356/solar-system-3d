@@ -1,4 +1,4 @@
-# ORBIT · Explore the Universe. Sense the Earth.
+# ANYUES · Explore the Universe. Sense the Earth.
 
 [简体中文](README.md) | [English](README_EN.md)
 
@@ -6,11 +6,11 @@ Current version: **1.9.0**. See the [changelog](CHANGELOG.md).
 
 **Live demo:** [https://ryh842487118-bot.github.io/orbit/](https://ryh842487118-bot.github.io/orbit/)
 
-Double-click **index.html** in this directory to launch ORBIT. Three.js and 15 textures, including Earth's original 8K day and night maps, are embedded in the HTML, so universe exploration requires no internet connection, dependency installation, or local server. EarthSense fetches public data on demand. A current version of Chrome, Edge, or Safari with WebGL 2 and hardware acceleration enabled is recommended.
+Double-click **index.html** in this directory to launch ANYUES. Three.js and 15 textures, including Earth's original 8K day and night maps, are embedded in the HTML, so universe exploration requires no internet connection, dependency installation, or local server. EarthSense fetches public data on demand. A current version of Chrome, Edge, or Safari with WebGL 2 and hardware acceleration enabled is recommended.
 
 ## Demo Video
 
-[![ORBIT universe explorer demo preview](demo-preview.jpg)](demo.mp4)
+[![ANYUES universe explorer demo preview](demo-preview.jpg)](demo.mp4)
 
 **[Watch the demo](demo.mp4)** · [Download MP4](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
 
@@ -30,9 +30,9 @@ Actual v1.6.0 screenshots; select an image to view it at full size. The fictiona
 
 ## Demo & Community Response
 
-[Watch the ORBIT demo on Douyin](https://v.douyin.com/fs-xgwuET1g), a Chinese short-video platform. The screenshot shows **4,319 likes, 1,292 favorites, 304 comments, and 920 shares**, reflecting interest in the project beyond GitHub. These figures come from the screenshot archived on September 8, 2026.
+[Watch the ANYUES demo on Douyin](https://v.douyin.com/fs-xgwuET1g), a Chinese short-video platform. The screenshot shows **4,319 likes, 1,292 favorites, 304 comments, and 920 shares**, reflecting interest in the project beyond GitHub. These figures come from the screenshot archived on September 8, 2026.
 
-[![ORBIT demo on Douyin showing 4,319 likes, 1,292 favorites, 304 comments, and 920 shares](docs/previews/douyin-demo.png)](docs/previews/douyin-demo.png)
+[![ANYUES demo on Douyin showing 4,319 likes, 1,292 favorites, 304 comments, and 920 shares](docs/previews/douyin-demo.png)](docs/previews/douyin-demo.png)
 
 ## Explore
 
@@ -80,22 +80,22 @@ Universe exploration and EarthSense share the same detailed Earth maps, finer ge
 
 ## Implementation
 
-ORBIT uses Three.js r185 and includes Earth day/night shading, city lights, an independent cloud layer, an atmospheric rim, 32 satellites, a simplified International Space Station, the Moon, the Sun, all eight planets, transparent Saturn rings, and Solar System orbits. Deep-space exploration adds 14 procedural galaxies with spiral arms, elliptical halos, irregular star fields, and dust lanes, five black-hole models, independent stellar systems, JWST and Voyager 1 models, procedural star, rocky, icy, and gas-giant surfaces, and lighting directed toward each planet’s host star. Bodies and orbits appear according to viewing distance. The renderer uses logarithmic depth buffering, bloom post-processing, and a responsive interface.
+ANYUES uses Three.js r185 and includes Earth day/night shading, city lights, an independent cloud layer, an atmospheric rim, 32 satellites, a simplified International Space Station, the Moon, the Sun, all eight planets, transparent Saturn rings, and Solar System orbits. Deep-space exploration adds 14 procedural galaxies with spiral arms, elliptical halos, irregular star fields, and dust lanes, five black-hole models, independent stellar systems, JWST and Voyager 1 models, procedural star, rocky, icy, and gas-giant surfaces, and lighting directed toward each planet’s host star. Bodies and orbits appear according to viewing distance. The renderer uses logarithmic depth buffering, bloom post-processing, and a responsive interface.
 
 This is an interactive visualization. Body sizes, distances, orbital positions, and speeds are adjusted for visual presentation rather than real-time astronomical accuracy. Satellite, station, and spacecraft models use display proportions. All 14 galaxies are illustrative; this destination count is not the complete membership of a physical galaxy group. Close-range HUD distances are converted from visual units for demonstration.
 
 ## Debugging Interface
 
-After the page loads, call `ORBIT.destinations()` in the browser console to inspect 14 galaxies and 46 bodies beyond the Solar System. Entries provide IDs, names, kinds, galaxy membership, host stars, and model status. Visit spacecraft directly with `ORBIT.goTo('voyager-1')` or `ORBIT.goTo('jwst')`. Existing navigation IDs remain compatible.
+After the page loads, call `ANYUES.destinations()` in the browser console to inspect 14 galaxies and 46 bodies beyond the Solar System. Entries provide IDs, names, kinds, galaxy membership, host stars, and model status. Visit spacecraft directly with `ANYUES.goTo('voyager-1')` or `ANYUES.goTo('jwst')`. Existing navigation IDs remain compatible.
 
 ```js
-console.table(ORBIT.destinations());
-ORBIT.goTo('sagittarius-a'); // Explore the Milky Way’s central black hole
-ORBIT.goTo('m32');          // Fly to M32
-ORBIT.goTo('local-group'); // Galaxy Atlas overview
-ORBIT.goTo('andromeda');   // Fly to Andromeda
-ORBIT.goTo('hr8799-b');    // Fly to a confirmed giant planet
-ORBIT.getState();          // Includes activeGalaxyId, activeSystemId, and the current scale
+console.table(ANYUES.destinations());
+ANYUES.goTo('sagittarius-a'); // Explore the Milky Way’s central black hole
+ANYUES.goTo('m32');          // Fly to M32
+ANYUES.goTo('local-group'); // Galaxy Atlas overview
+ANYUES.goTo('andromeda');   // Fly to Andromeda
+ANYUES.goTo('hr8799-b');    // Fly to a confirmed giant planet
+ANYUES.getState();          // Includes activeGalaxyId, activeSystemId, and the current scale
 ```
 
 In the new catalog, `modelStatus: 'confirmed'` identifies real objects, while `'illustration'` identifies fictional destinations. Surface artwork, scene proportions, and orbital animation remain illustrative for confirmed objects too.

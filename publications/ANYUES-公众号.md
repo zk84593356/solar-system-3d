@@ -4,11 +4,11 @@
 
 看看土星环，靠近太阳，还是把镜头一直拉远，看看银河系之外？
 
-最近想分享一个小项目，叫 **ORBIT**。打开浏览器，就能从地球出发，自己控制视角，一路逛到太阳系、银河和本星系群。
+最近想分享一个小项目，叫 **ANYUES**。打开浏览器，就能从地球出发，自己控制视角，一路逛到太阳系、银河和本星系群。
 
 先放一段实际网页录制的视频，25 秒就能大致知道它是什么样。
 
-[![ORBIT 宇宙漫游演示，点击观看视频](https://raw.githubusercontent.com/ryh842487118-bot/orbit/main/demo-preview.jpg)](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
+[![ANYUES 宇宙漫游演示，点击观看视频](https://raw.githubusercontent.com/ryh842487118-bot/orbit/main/demo-preview.jpg)](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
 
 [点击观看演示视频](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
 
@@ -44,7 +44,7 @@
 
 **再往外走，看看不熟悉的名字**
 
-除了太阳系里常见的行星，ORBIT 也收录了一些更远的恒星。
+除了太阳系里常见的行星，ANYUES 也收录了一些更远的恒星。
 
 比如下面这颗 R136a1。画面里是一大团明亮的蓝白色，边缘泛着光，左侧可以读到它的简单介绍。天体真实存在，近景外观则是艺术化呈现。
 
@@ -72,5 +72,5 @@
 
 有空可以打开逛几分钟。不用提前想好路线，看到哪颗星顺眼，就点过去看看。
 
-- [ORBIT 在线体验](https://ryh842487118-bot.github.io/orbit/)
+- [ANYUES 在线体验](https://ryh842487118-bot.github.io/orbit/)
 - [GitHub 源码与项目说明](https://github.com/ryh842487118-bot/orbit)

@@ -1,4 +1,4 @@
-# ORBIT · 漫游宇宙 · 感知地球
+# ANYUES · 漫游宇宙 · 感知地球
 
 [简体中文](README.md) | [English](README_EN.md)
 
@@ -12,7 +12,7 @@
 
 ## 演示视频
 
-[![ORBIT 宇宙漫游演示预览](demo-preview.jpg)](demo.mp4)
+[![ANYUES 宇宙漫游演示预览](demo-preview.jpg)](demo.mp4)
 
 **[查看演示视频](demo.mp4)** · [下载 MP4](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
 
@@ -32,9 +32,9 @@
 
 ## 演示与反馈
 
-[观看 ORBIT 抖音演示](https://v.douyin.com/fs-xgwuET1g)。所附截图显示 **4,319 次点赞、1,292 次收藏、304 条评论和 920 次分享**，记录了项目在 GitHub 之外获得的关注。数据以截图为准，收录日期为 2026-09-08。
+[观看 ANYUES 抖音演示](https://v.douyin.com/fs-xgwuET1g)。所附截图显示 **4,319 次点赞、1,292 次收藏、304 条评论和 920 次分享**，记录了项目在 GitHub 之外获得的关注。数据以截图为准，收录日期为 2026-09-08。
 
-[![ORBIT 抖音演示截图：4,319 次点赞、1,292 次收藏、304 条评论、920 次分享](docs/previews/douyin-demo.png)](docs/previews/douyin-demo.png)
+[![ANYUES 抖音演示截图：4,319 次点赞、1,292 次收藏、304 条评论、920 次分享](docs/previews/douyin-demo.png)](docs/previews/douyin-demo.png)
 
 ## 探索
 
@@ -91,16 +91,16 @@ Three.js r185；地球昼夜着色、夜景灯光、独立云层、大气边缘�
 
 ## 调试接口
 
-页面加载完成后，可在浏览器控制台使用 `ORBIT.destinations()` 查看 14 座星系和 46 个太阳系外天体的目录，返回 ID、名称、类型、所属星系、宿主恒星及模型状态。航天器可通过 `ORBIT.goTo('voyager-1')` 和 `ORBIT.goTo('jwst')` 直接访问。原有导航 ID 保持兼容。
+页面加载完成后，可在浏览器控制台使用 `ANYUES.destinations()` 查看 14 座星系和 46 个太阳系外天体的目录，返回 ID、名称、类型、所属星系、宿主恒星及模型状态。航天器可通过 `ANYUES.goTo('voyager-1')` 和 `ANYUES.goTo('jwst')` 直接访问。原有导航 ID 保持兼容。
 
 ```js
-console.table(ORBIT.destinations());
-ORBIT.goTo('sagittarius-a'); // 探索银河中心黑洞
-ORBIT.goTo('m32');          // 飞向 M32
-ORBIT.goTo('local-group'); // 星系图鉴总览
-ORBIT.goTo('andromeda');   // 飞向仙女座星系
-ORBIT.goTo('hr8799-b');    // 飞向已确认的巨行星
-ORBIT.getState();          // 包含 activeGalaxyId、activeSystemId 和当前探索尺度
+console.table(ANYUES.destinations());
+ANYUES.goTo('sagittarius-a'); // 探索银河中心黑洞
+ANYUES.goTo('m32');          // 飞向 M32
+ANYUES.goTo('local-group'); // 星系图鉴总览
+ANYUES.goTo('andromeda');   // 飞向仙女座星系
+ANYUES.goTo('hr8799-b');    // 飞向已确认的巨行星
+ANYUES.getState();          // 包含 activeGalaxyId、activeSystemId 和当前探索尺度
 ```
 
 新增目录中的 `modelStatus: 'confirmed'` 表示天体真实存在，`'illustration'` 表示虚构示意；已确认天体的艺术纹理、场景比例和轨道动画也经过视觉调整。

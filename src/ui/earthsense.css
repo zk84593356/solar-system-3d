@@ -1,4 +1,4 @@
-/* EarthSense extends ORBIT's existing observatory UI. The universe skin stays intact. */
+/* EarthSense extends ANYUES's existing observatory UI. The universe skin stays intact. */
 :root{--earthsense-ease:cubic-bezier(.22,1,.36,1);--orbit-dock-height:113px}
 .brand small{letter-spacing:1.5px;white-space:nowrap}
 .brand-english{display:block;font-size:8px;letter-spacing:.15px;color:#6f8595;margin-top:6px;font-weight:400}
