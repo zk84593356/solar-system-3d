@@ -18,9 +18,9 @@
 
 今晚如果不想继续刷视频，可以换自己来控制镜头。
 
-[ANYUES 在线体验](https://ryh842487118-bot.github.io/orbit/)
+[ANYUES 在线体验](https://lab.anyues.com/solar-system/)
 
-[GitHub 源码](https://github.com/ryh842487118-bot/orbit)
+[GitHub 源码](https://github.com/zk84593356/solar-system-3d)
 
 #宇宙 #天文 #宝藏网站 #网站分享 #开源项目 #ANYUES
 
@@ -30,7 +30,7 @@
 
 **演示视频**
 
-[下载网页演示视频](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
+[下载网页演示视频](https://github.com/zk84593356/solar-system-3d/raw/refs/heads/main/demo.mp4)
 
 **六张配图（依次上传）**
 

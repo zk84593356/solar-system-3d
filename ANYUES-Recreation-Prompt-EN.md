@@ -2,9 +2,9 @@
 
 > This prompt describes the finished ANYUES experience. It is not a verbatim transcript of the original development conversation. Copy it into an AI coding tool to build your own version.
 >
-> Live demo: https://ryh842487118-bot.github.io/orbit/
+> Live demo: https://lab.anyues.com/solar-system/
 >
-> Source code: https://github.com/ryh842487118-bot/orbit
+> Source code: https://github.com/zk84593356/solar-system-3d
 
 ---
 

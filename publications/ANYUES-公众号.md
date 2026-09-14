@@ -8,9 +8,9 @@
 
 先放一段实际网页录制的视频，25 秒就能大致知道它是什么样。
 
-[![ANYUES 宇宙漫游演示，点击观看视频](https://raw.githubusercontent.com/ryh842487118-bot/orbit/main/demo-preview.jpg)](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
+[![ANYUES 宇宙漫游演示，点击观看视频](https://raw.githubusercontent.com/ryh842487118-bot/orbit/main/demo-preview.jpg)](https://github.com/zk84593356/solar-system-3d/raw/refs/heads/main/demo.mp4)
 
-[点击观看演示视频](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
+[点击观看演示视频](https://github.com/zk84593356/solar-system-3d/raw/refs/heads/main/demo.mp4)
 
 视频里镜头会带着你走，自己打开网页以后，就可以在喜欢的地方多停一会儿。鼠标拖动换角度，滚轮拉近拉远，点一下天体，镜头就会飞过去。
 
@@ -72,5 +72,5 @@
 
 有空可以打开逛几分钟。不用提前想好路线，看到哪颗星顺眼，就点过去看看。
 
-- [ANYUES 在线体验](https://ryh842487118-bot.github.io/orbit/)
-- [GitHub 源码与项目说明](https://github.com/ryh842487118-bot/orbit)
+- [ANYUES 在线体验](https://lab.anyues.com/solar-system/)
+- [GitHub 源码与项目说明](https://github.com/zk84593356/solar-system-3d)

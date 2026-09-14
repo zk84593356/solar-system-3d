@@ -2,9 +2,9 @@
 
 > 根据 ANYUES 最终效果整理，可复制给 AI 编程工具使用，并非原始开发对话的逐字记录。
 >
-> 在线体验：https://ryh842487118-bot.github.io/orbit/
+> 在线体验：https://lab.anyues.com/solar-system/
 >
-> 开源代码：https://github.com/ryh842487118-bot/orbit
+> 开源代码：https://github.com/zk84593356/solar-system-3d
 
 ---
 

@@ -4,7 +4,7 @@
 
 Current version: **1.9.0**. See the [changelog](CHANGELOG.md).
 
-**Live demo:** [https://ryh842487118-bot.github.io/orbit/](https://ryh842487118-bot.github.io/orbit/)
+**Live demo:** [https://lab.anyues.com/solar-system/](https://lab.anyues.com/solar-system/)
 
 Double-click **index.html** in this directory to launch ANYUES. Three.js and 15 textures, including Earth's original 8K day and night maps, are embedded in the HTML, so universe exploration requires no internet connection, dependency installation, or local server. EarthSense fetches public data on demand. A current version of Chrome, Edge, or Safari with WebGL 2 and hardware acceleration enabled is recommended.
 
@@ -12,7 +12,7 @@ Double-click **index.html** in this directory to launch ANYUES. Three.js and 15 
 
 [![ANYUES universe explorer demo preview](demo-preview.jpg)](demo.mp4)
 
-**[Watch the demo](demo.mp4)** · [Download MP4](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
+**[Watch the demo](demo.mp4)** · [Download MP4](https://github.com/zk84593356/solar-system-3d/raw/refs/heads/main/demo.mp4)
 
 The 25-second video is continuously recorded from the actual website at 1920 × 1080 and 25 FPS. It moves from Galactic motion trails to Earth, EarthSense, the Sun, an illustrated giant planet in the Large Magellanic Cloud, and a closing Local Group overview.
 

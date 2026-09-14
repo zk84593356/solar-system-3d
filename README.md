@@ -6,7 +6,7 @@
 
 当前版本：**1.9.0**。查看[更新日志](CHANGELOG.md)。
 
-**线上体验：** [https://ryh842487118-bot.github.io/orbit/](https://ryh842487118-bot.github.io/orbit/)
+**线上体验：** [https://lab.anyues.com/solar-system/](https://lab.anyues.com/solar-system/)
 
 直接双击本目录的 **index.html** 即可使用。Three.js 和 15 张纹理（含地球 8K 日夜源图）已嵌入 HTML，宇宙漫游无需联网、安装依赖或启动服务器。EarthSense 通过公开接口按需联网。建议使用支持 WebGL 2、已开启硬件加速的新版 Chrome、Edge 或 Safari。
 
@@ -14,7 +14,7 @@
 
 [![ANYUES 宇宙漫游演示预览](demo-preview.jpg)](demo.mp4)
 
-**[查看演示视频](demo.mp4)** · [下载 MP4](https://github.com/ryh842487118-bot/orbit/raw/refs/heads/main/demo.mp4)
+**[查看演示视频](demo.mp4)** · [下载 MP4](https://github.com/zk84593356/solar-system-3d/raw/refs/heads/main/demo.mp4)
 
 25 秒，1920 × 1080，25 FPS。实际网页连续录制，依次展示银河参照运动轨迹、地球、感知地球、太阳、大麦哲伦星云中的巨行星示意，最后停留在本星系群全景。
 
